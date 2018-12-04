@@ -3,9 +3,6 @@
 # Surfs Up!
 
 <!--lint enable no-heading-punctuation-->
-![surfs-up.jpeg](Images/surfs-up.jpeg)
-
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you decided to do some climate analysis on the area. Because you are such an awesome person, you have decided to share your ninja analytical skills with the community by providing a climate analysis API. The following outlines what you need to do.
 
 ## Step 1 - Data Engineering
 
@@ -150,13 +147,3 @@ Now that you have completed your initial analysis, design a Flask API based on t
   * When given the start only, calculate `TMIN`, `TAVG`, and `TMAX` for all dates greater than and equal to the start date.
 
   * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
-
-## Hints
-
-* You will need to join the station and measurement tables for some of the analysis queries.
-
-* Use Flask `jsonify` to convert your API data into a valid JSON response object.
-
-## Copyright
-
-Data Boot Camp ©2018. All Rights Reserved.
